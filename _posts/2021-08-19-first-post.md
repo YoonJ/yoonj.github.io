@@ -2,6 +2,8 @@
 title:  "GitHub Page와 Jekyll로 블로그 만들기 (1)"
 excerpt: "테마  고르기"
 
+toc: true
+
 categories:
   - blog
 tags:
