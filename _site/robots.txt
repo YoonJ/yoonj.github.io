@@ -1,1 +1,1 @@
-Sitemap: /sitemap.xml
+Sitemap: https://yoonj.github.io//sitemap.xml
