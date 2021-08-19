@@ -6,3 +6,7 @@
 
 @import "minimal-mistakes/skins/{{ site.minimal_mistakes_skin | default: 'default' }}"; // skin
 @import "minimal-mistakes"; // main partials
+
+@import url(//fonts.googleapis.com/earlyaccess/jejumyeongjo.css); //Jeju Myeongjo //font-family: 'Jeju Myeongjo', serif;
+@import url(//fonts.googleapis.com/earlyaccess/nanumgothiccoding.css); //font-family: 'Nanum Gothic Coding', monospace;
+@import url('https://fonts.googleapis.com/css2?family=Recursive&display=swap'); //Recursive //font-family: 'Recursive', sans-serif;
