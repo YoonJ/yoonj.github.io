@@ -9,7 +9,7 @@
   <head>
     <meta charset="utf-8">
 
-<!-- begin _includes/seo.html --><title>Posts by Category - 기록</title>
+<!-- begin _includes/seo.html --><title>배워서 바로 쓰는  14가지 AWS 구축 패턴 - 기록</title>
 <meta name="description" content="기록용 블로그">
 
 
@@ -20,8 +20,8 @@
 <meta property="og:type" content="website">
 <meta property="og:locale" content="en_US">
 <meta property="og:site_name" content="기록">
-<meta property="og:title" content="Posts by Category">
-<meta property="og:url" content="https://yoonj.github.io//categories/">
+<meta property="og:title" content="배워서 바로 쓰는  14가지 AWS 구축 패턴">
+<meta property="og:url" content="https://yoonj.github.io//categories/AwsPattern">
 
 
   <meta property="og:description" content="기록용 블로그">
@@ -41,7 +41,7 @@
   
 
 
-<link rel="canonical" href="https://yoonj.github.io//categories/">
+<link rel="canonical" href="https://yoonj.github.io//categories/AwsPattern">
 
 
 
@@ -108,7 +108,7 @@
 
   </head>
 
-  <body class="layout--categories">
+  <body class="layout--archive">
     <nav class="skip-links">
   <ul>
     <li><a href="#site-nav" class="screen-reader-shortcut">Skip to primary navigation</a></li>
@@ -274,6 +274,94 @@
   
 
   
+    <!--전체 글 수를 세기 위한 연산. sum 변수에 전체 글 수 저장-->
+
+
+
+<nav class="nav__list">
+  <input id="ac-toc" name="accordion-toc" type="checkbox" />
+  <label for="ac-toc">Category</label>
+  <ul class="nav__items" id="category_tag_menu">
+      <!--전체 글 수-->
+      <li style="font-size: small;">
+            📂 <span style="font-family:'Cafe24Oneprettynight';font-size: small;">Total  Posts:</style> <span style="font-family:'Coming Soon';">3</style> <span style="font-family:'Cafe24Oneprettynight';"></style> 
+      </li>
+      <li>
+      <!--span 태그로 카테고리들을 크게 분류 ex) C/C++/C#-->
+      <span class="nav__sub-title">DevOps</span>
+        <!--<span class="nav__sub-sub-title">- AWS</span>-->
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+        <span class="nav__sub-title">Book</span>
+            <ul>
+                <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                
+                    
+                
+                    
+                        <li><a href="/categories/AwsPattern" class="nav__sub-sub-content">AwsPattern (1)</a></li>
+                    
+                
+                    
+                
+            </ul>
+            <ul>
+                
+                    
+                
+                    
+                
+                    
+                
+            </ul>
+        <span class="nav__sub-title">etc</span>
+            <!--ul 태그로 같은 카테고리들 모아둔 페이지들 나열-->
+                <ul>
+                    <!--Cpp 카테고리 글들을 모아둔 페이지인 /categories/cpp 주소의 글로 링크 연결-->
+                    <!--category[1].size 로 해당 카테고리를 가진 글의 개수 표시--> 
+                    
+                        
+                            <li><a href="/categories/Blog" class="nav__sub-sub-content">Blog (1)</a></li>
+                        
+                    
+                        
+                    
+                        
+                    
+                </ul>
+                <ul>
+                    
+                        
+                    
+                        
+                    
+                        
+                            <li><a href="/categories/Etc" class="nav__sub-sub-content">Etc (1)</a></li>
+                        
+                    
+                </ul>
+      </li>
+  </ul>
+</nav>
+
+  
 
   </div>
 
@@ -281,122 +369,19 @@
 
   <div class="archive">
     
-      <h1 id="page-title" class="page__title">Posts by Category</h1>
+      <h1 id="page-title" class="page__title">배워서 바로 쓰는  14가지 AWS 구축 패턴</h1>
     
     
-
-
-
-
-
-<ul class="taxonomy__index">
-  
-    
-      
-        <li>
-          <a href="#blog">
-            <strong>Blog</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#awspattern">
-            <strong>AwsPattern</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-      
-        <li>
-          <a href="#etc">
-            <strong>Etc</strong> <span class="taxonomy__count">1</span>
-          </a>
-        </li>
-      
-    
-  
-</ul>
-
-
-
-  
-    
-      <section id="blog" class="taxonomy__section">
-        <h2 class="archive__subtitle">Blog</h2>
-        <div class="entries-list">
-          
-            
-
-
-
 <div class="list__item">
   <article class="archive-item">
       <div>
           <span>
-            <a href="/blog/first-post/" class = "archive__item_url">GitHub Page와 Jekyll로 블로그 만들기 (0)</a>
-          </span>
-          <small> 
-            🗓  2021.08.19
-            
-              <a class = "archive__item_url">
-<!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#blog" class="page__taxonomy-item-category" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color:#3F5D66; text-decoration: none; border: 1px solid #3F5D66; border-radius: 4px;">Blog</a>
-                    
-                    
-                    <a href="/tags/#blog" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Blog</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#github-page" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Github Page</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#github" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Github</a><span class="sep"> </span>
-                
-                    
-                    
-                    <a href="/tags/#jekyll" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Jekyll</a>
-                
-            </span>
-        </span></a>
-            
-            <p class="archive__item-excerpt" itemprop="description">참고 사이트 정리
-</p>
-          </small>
-      </div>
-    </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="awspattern" class="taxonomy__section">
-        <h2 class="archive__subtitle">AwsPattern</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive-item">
-      <div>
-          <span>
-            <a href="/awspattern/aws-pattern-00/" class = "archive__item_url">배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)</a>
+            <a href="/awspattern/aws-pattern-00/" class="archive__item_url">배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)</a>
           </span>
           <small> 
             🗓  2021.08.20
             
-              <a class = "archive__item_url">
+              <a class="archive__item_url">
 <!--Archive page 용-: (post -> page)-->
 <!--page__taxonomy.html에서 가져 옴-->
         
@@ -423,57 +408,6 @@
       </div>
     </article>
 </div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-      </section>
-    
-  
-    
-      <section id="etc" class="taxonomy__section">
-        <h2 class="archive__subtitle">Etc</h2>
-        <div class="entries-list">
-          
-            
-
-
-
-<div class="list__item">
-  <article class="archive-item">
-      <div>
-          <span>
-            <a href="/etc/book-list/" class = "archive__item_url">Book List</a>
-          </span>
-          <small> 
-            🗓  2021.08.20
-            
-              <a class = "archive__item_url">
-<!--Archive page 용-: (post -> page)-->
-<!--page__taxonomy.html에서 가져 옴-->
-        
-        <span class="page__taxonomy">
-            <span itemprop="keywords"><a href="/categories/#etc" class="page__taxonomy-item-category" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color:#3F5D66; text-decoration: none; border: 1px solid #3F5D66; border-radius: 4px;">Etc</a>
-                    
-                    
-                    <a href="/tags/#book" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Book</a>
-                
-            </span>
-        </span></a>
-            
-            <p class="archive__item-excerpt" itemprop="description">독서모임으로 읽었던 책 목록
-</p>
-          </small>
-      </div>
-    </article>
-</div>
-
-          
-        </div>
-        <a href="#page-title" class="back-to-top">Back to top &uarr;</a>
-      </section>
-    
-  
 
 
   </div>

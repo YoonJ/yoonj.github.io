@@ -343,8 +343,8 @@ body {
 .page__taxonomy-item {
   display: inline-block;
   margin-right: 5px;
-  margin-bottom: 8px;
-  padding: 5px 10px;
+  margin-bottom: 0.1rem;
+  padding: 1px 7px;
   text-decoration: none;
   border: 1px solid mix(#000, $border-color, 25%);
   border-radius: $border-radius;

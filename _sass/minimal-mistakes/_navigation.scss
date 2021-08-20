@@ -499,6 +499,21 @@
   border-bottom: 1px solid $border-color;
 }
 
+.nav__sub-sub-title {
+  display: block;
+  margin: 0.5rem 0;
+  padding: 0.25rem 0;
+  font-family: $sans-serif-narrow;
+  font-size: $type-size-8;
+  font-weight: bold;
+  text-transform: uppercase;
+  color: darkgray;
+}
+
+.nav__sub-sub-content {
+  padding-left: 1rem;
+}
+
 /*
      Table of contents navigation
      ========================================================================== */

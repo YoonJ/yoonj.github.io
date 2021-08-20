@@ -1,4 +1,77 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://yoonj.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://yoonj.github.io//" rel="alternate" type="text/html" /><updated>2021-08-20T13:55:08+09:00</updated><id>https://yoonj.github.io//feed.xml</id><title type="html">기록</title><subtitle>기록용 블로그</subtitle><author><name>Yoon</name></author><entry><title type="html">GitHub Page와 Jekyll로 블로그 만들기 (0)</title><link href="https://yoonj.github.io//blog/first-post/" rel="alternate" type="text/html" title="GitHub Page와 Jekyll로 블로그 만들기 (0)" /><published>2021-08-19T00:00:00+09:00</published><updated>2021-08-19T22:06:00+09:00</updated><id>https://yoonj.github.io//blog/first-post</id><content type="html" xml:base="https://yoonj.github.io//blog/first-post/">&lt;h2 id=&quot;참고--사이트&quot;&gt;참고  사이트&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://yoonj.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://yoonj.github.io//" rel="alternate" type="text/html" /><updated>2021-08-20T23:17:54+09:00</updated><id>https://yoonj.github.io//feed.xml</id><title type="html">기록</title><subtitle>기록용 블로그</subtitle><author><name>Yoon</name></author><entry><title type="html">배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)</title><link href="https://yoonj.github.io//awspattern/aws-pattern-00/" rel="alternate" type="text/html" title="배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)" /><published>2021-08-20T00:00:00+09:00</published><updated>2021-08-20T22:06:00+09:00</updated><id>https://yoonj.github.io//awspattern/aws-pattern-00</id><content type="html" xml:base="https://yoonj.github.io//awspattern/aws-pattern-00/">&lt;h2 id=&quot;1-웹-시스템&quot;&gt;1. 웹 시스템&lt;/h2&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://www.notion.so/1-4db1130c7b954ed98e14d5ee506f209d&quot;&gt;패턴1. 이벤트 사이트&lt;/a&gt;&lt;/p&gt;
+
+&lt;p&gt;패턴2. 기업 웹사이트&lt;/p&gt;
+
+&lt;p&gt;패턴3. 성능을 중시하는 인트라 웹&lt;/p&gt;
+
+&lt;p&gt;패턴4. 가용성을 중시한 인트라 웹&lt;/p&gt;
+
+&lt;h2 id=&quot;2-스토리지-시스템&quot;&gt;2. 스토리지 시스템&lt;/h2&gt;
+
+&lt;p&gt;패턴5. 백업&lt;/p&gt;
+
+&lt;p&gt;패턴6. 파일 서버&lt;/p&gt;
+
+&lt;h2 id=&quot;3-데이터-분석-시스템&quot;&gt;3. 데이터 분석 시스템&lt;/h2&gt;
+
+&lt;p&gt;패턴7. 구조화된 데이터 분석&lt;/p&gt;
+
+&lt;p&gt;패턴8. 비구조화된 데이터 분석&lt;/p&gt;
+
+&lt;p&gt;패턴9. AI와 IoT&lt;/p&gt;
+
+&lt;h2 id=&quot;4-애플리케이션-쾌속-개발&quot;&gt;4. 애플리케이션 쾌속 개발&lt;/h2&gt;
+
+&lt;p&gt;패턴10. 서버 애플리케이션 쾌속 개발&lt;/p&gt;
+
+&lt;p&gt;패턴11. 모바일 앱 쾌속 개발&lt;/p&gt;
+
+&lt;h2 id=&quot;5-클라우드-네이티브&quot;&gt;5. 클라우드 네이티브&lt;/h2&gt;
+
+&lt;p&gt;패턴12. 서버리스 인프라&lt;/p&gt;
+
+&lt;p&gt;패턴13. 마이크로서비스 운영&lt;/p&gt;
+
+&lt;h2 id=&quot;6-하이브리드-클라우드&quot;&gt;6. 하이브리드 클라우드&lt;/h2&gt;
+
+&lt;p&gt;패턴14. 온프레미스 환경과 연계하기&lt;/p&gt;</content><author><name>Yoon</name></author><category term="AwsPattern" /><category term="DevOps" /><category term="AWS" /><category term="Book" /><summary type="html">개요</summary></entry><entry><title type="html">Book List</title><link href="https://yoonj.github.io//etc/book-list/" rel="alternate" type="text/html" title="Book List" /><published>2021-08-20T00:00:00+09:00</published><updated>2021-08-20T22:06:00+09:00</updated><id>https://yoonj.github.io//etc/book-list</id><content type="html" xml:base="https://yoonj.github.io//etc/book-list/">&lt;h2 id=&quot;2021&quot;&gt;2021&lt;/h2&gt;
+&lt;h3 id=&quot;면도날-서머싯-몸&quot;&gt;면도날, 서머싯 몸&lt;/h3&gt;
+&lt;blockquote&gt;
+  &lt;p&gt;“설탕을 맛보고 싶긴 해도 설탕이 되고 싶지는 않다? 결국 개성이라는 건 자아의식의 표출에 불과한 것 아닙니까? 그러니 영혼은 개성의 흔적을 마지막 한 방울까지 완전히 씻어 내지 않으면 절대자와 하나가 될 수 없죠.”&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;라마크리슈나는 이 세상을 신의 장난으로 보았어요. ‘그것은 유희와도 같으며, 그 유희에는 기쁨과 슬픔, 미덕과 악덕, 지식과 무지, 선과 악이 존재한다. 삼라만상에서 죄와 고통이 모두 제거되면 그 유희는 끝을 맞는다.’라고 말했죠.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;제가 주장할 수 있는 건, 절대자가 이 세상에 그 자신을 현현했을 때 선과 악이 본질적인 상관관계를 갖고 있지 않을까 하는 거예요. 지각변동이라는 상상하기 힘든 공포가 없었다면 히말라야 산맥의 장관은 결코 생겨나지 않았을 겁니다. 중국의 장인들은 얇은 도자기로 예쁜 모양의 꽃병을 만들어 거기에 아름다운 디자인을 넣고 멋지게 색칠한 다음, 완벽한 광택을 추가하죠. 하지만 아무리 아름다운 꽃병도 그 본질적인 속성 때문에 쉽게 깨질 수밖에 없어요. 바닥에 떨어뜨리면 산산조각이 나고 말죠. 마찬가지로 우리가 이 세상에서 소중하게 여기는 가치들도 오직 악과 결합해야만 존재할 수 있는게 아닐까요?&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;저는 인간이 세울 수 있는 가장 위대한 이상이 자기완성이라고 생각하거든요.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;제가 나름의 계획을 세우고 그대로 삶을 이끌어 나간다면, 다른 사람에게 영향을 미칠 수도 있죠. 물론 영향이라고 해 봐야 연못에 돌을 던졌을 때 작은  물결이 이는 것처럼 아주 미미할 겁니다. 하지만 하나의 물결은 또 다른 물결을 일으키고, 그것은 그다음 물결로 이어지죠. 그렇게 되면 몇몇 사람들이나마 제 생활 방식이 행복과 평화를 준다는 점을 깨닫고 자신이 배운 것을 다른 사람들에게 가르쳐 줄 수도 있잖아요.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;래리는 자신의 바람대로 떠들썩하고 소란스러운 인간 집단에 흡수되었다.&lt;br /&gt;
+이해관계의 상충으로 괴로워하고 세상의 혼란 속에서 방황하며, 선을 강렬히 소망하면서도 외부에 대해서는 독단적이고 그러면서도 속으로는 매우 소심한 인간들, 친절하지만 까다롭고, 남을 잘 믿으면서도 의심이 강하며, 야비하면서도 너그러운 미국인들 속에 흡수되어 버렸다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;h3 id=&quot;소크라테스-익스프레스-에릭-와이너&quot;&gt;소크라테스 익스프레스, 에릭 와이너&lt;/h3&gt;
+
+&lt;h3 id=&quot;우리는-모두-집으로-돌아간다-마쓰이에-마사시&quot;&gt;우리는 모두 집으로 돌아간다, 마쓰이에 마사시&lt;/h3&gt;
+
+&lt;h3 id=&quot;명랑한-은둔자-캐럴라인-냅&quot;&gt;명랑한 은둔자, 캐럴라인 냅&lt;/h3&gt;
+
+&lt;h3 id=&quot;멀고도-가까운-리베카-솔닛&quot;&gt;멀고도 가까운, 리베카 솔닛&lt;/h3&gt;
+
+&lt;h2 id=&quot;2020&quot;&gt;2020&lt;/h2&gt;</content><author><name>Yoon</name></author><category term="Etc" /><category term="Book" /><summary type="html">독서모임으로 읽었던 책 목록</summary></entry><entry><title type="html">GitHub Page와 Jekyll로 블로그 만들기 (0)</title><link href="https://yoonj.github.io//blog/first-post/" rel="alternate" type="text/html" title="GitHub Page와 Jekyll로 블로그 만들기 (0)" /><published>2021-08-19T00:00:00+09:00</published><updated>2021-08-19T22:06:00+09:00</updated><id>https://yoonj.github.io//blog/first-post</id><content type="html" xml:base="https://yoonj.github.io//blog/first-post/">&lt;h2 id=&quot;참고--사이트&quot;&gt;참고  사이트&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;

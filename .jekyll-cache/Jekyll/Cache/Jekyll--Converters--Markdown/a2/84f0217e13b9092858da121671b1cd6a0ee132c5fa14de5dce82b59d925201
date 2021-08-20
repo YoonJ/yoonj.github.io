@@ -1,0 +1,31 @@
+I"�
+<div class="list__item">
+  <article class="archive-item">
+      <div>
+          <span>
+            <a href="/etc/book-list/" class="archive__item_url">Book List</a>
+          </span>
+          <small> 
+            🗓  2021.08.20
+            
+              <a class="archive__item_url">
+<!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#etc" class="page__taxonomy-item-category" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color:#3F5D66; text-decoration: none; border: 1px solid #3F5D66; border-radius: 4px;">Etc</a>
+                    
+                    
+                    <a href="/tags/#book" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Book</a>
+                
+            </span>
+        </span></a>
+            
+            <p class="archive__item-excerpt" itemprop="description">독서모임으로 읽었던 책 목록
+</p>
+          </small>
+      </div>
+    </article>
+</div>
+
+:ET

@@ -4,4 +4,16 @@ var store = [{
         "tags": ["Blog","Github","Github Page","Jekyll"],
         "url": "/blog/first-post/",
         "teaser": null
+      },{
+        "title": "배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)",
+        "excerpt":"1. 웹 시스템 패턴1. 이벤트 사이트 패턴2. 기업 웹사이트 패턴3. 성능을 중시하는 인트라 웹 패턴4. 가용성을 중시한 인트라 웹 2. 스토리지 시스템 패턴5. 백업 패턴6. 파일 서버 3. 데이터 분석 시스템 패턴7. 구조화된 데이터 분석 패턴8. 비구조화된 데이터 분석 패턴9. AI와 IoT 4. 애플리케이션 쾌속 개발 패턴10. 서버 애플리케이션 쾌속...","categories": ["AwsPattern"],
+        "tags": ["DevOps","AWS","Book"],
+        "url": "/awspattern/aws-pattern-00/",
+        "teaser": null
+      },{
+        "title": "Book List",
+        "excerpt":"2021 면도날, 서머싯 몸 “설탕을 맛보고 싶긴 해도 설탕이 되고 싶지는 않다? 결국 개성이라는 건 자아의식의 표출에 불과한 것 아닙니까? 그러니 영혼은 개성의 흔적을 마지막 한 방울까지 완전히 씻어 내지 않으면 절대자와 하나가 될 수 없죠.” 라마크리슈나는 이 세상을 신의 장난으로 보았어요. ‘그것은 유희와도 같으며, 그 유희에는 기쁨과 슬픔, 미덕과...","categories": ["Etc"],
+        "tags": ["Book"],
+        "url": "/etc/book-list/",
+        "teaser": null
       }]
