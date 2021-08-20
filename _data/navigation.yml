@@ -1,9 +1,9 @@
 # main links
 main:
-  - title: "Project"
-    url: /project/
   - title: "Study"
     url: /study/
+  - title: "Project"
+    url: /project/
   - title:  "Post"
     url: /post/
   # - title: "Sample Posts"

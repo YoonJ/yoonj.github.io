@@ -10,9 +10,9 @@
           
         </a>
         <ul class="visible-links"><li class="masthead__menu-item">
-              <a href="/project/">Project</a>
-            </li><li class="masthead__menu-item">
               <a href="/study/">Study</a>
+            </li><li class="masthead__menu-item">
+              <a href="/project/">Project</a>
             </li><li class="masthead__menu-item">
               <a href="/post/">Post</a>
             </li></ul>
