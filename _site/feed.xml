@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://yoonj.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://yoonj.github.io//" rel="alternate" type="text/html" /><updated>2021-08-20T23:17:54+09:00</updated><id>https://yoonj.github.io//feed.xml</id><title type="html">기록</title><subtitle>기록용 블로그</subtitle><author><name>Yoon</name></author><entry><title type="html">배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)</title><link href="https://yoonj.github.io//awspattern/aws-pattern-00/" rel="alternate" type="text/html" title="배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)" /><published>2021-08-20T00:00:00+09:00</published><updated>2021-08-20T22:06:00+09:00</updated><id>https://yoonj.github.io//awspattern/aws-pattern-00</id><content type="html" xml:base="https://yoonj.github.io//awspattern/aws-pattern-00/">&lt;h2 id=&quot;1-웹-시스템&quot;&gt;1. 웹 시스템&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://yoonj.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://yoonj.github.io//" rel="alternate" type="text/html" /><updated>2021-08-21T01:17:06+09:00</updated><id>https://yoonj.github.io//feed.xml</id><title type="html">기록</title><subtitle>기록용 블로그</subtitle><author><name>Yoon</name></author><entry><title type="html">배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)</title><link href="https://yoonj.github.io//awspattern/aws-pattern-00/" rel="alternate" type="text/html" title="배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)" /><published>2021-08-20T00:00:00+09:00</published><updated>2021-08-20T22:06:00+09:00</updated><id>https://yoonj.github.io//awspattern/aws-pattern-00</id><content type="html" xml:base="https://yoonj.github.io//awspattern/aws-pattern-00/">&lt;h2 id=&quot;1-웹-시스템&quot;&gt;1. 웹 시스템&lt;/h2&gt;
 
 &lt;p&gt;&lt;a href=&quot;https://www.notion.so/1-4db1130c7b954ed98e14d5ee506f209d&quot;&gt;패턴1. 이벤트 사이트&lt;/a&gt;&lt;/p&gt;
 
@@ -59,11 +59,38 @@
 &lt;/blockquote&gt;
 
 &lt;blockquote&gt;
-  &lt;p&gt;래리는 자신의 바람대로 떠들썩하고 소란스러운 인간 집단에 흡수되었다.&lt;br /&gt;
-이해관계의 상충으로 괴로워하고 세상의 혼란 속에서 방황하며, 선을 강렬히 소망하면서도 외부에 대해서는 독단적이고 그러면서도 속으로는 매우 소심한 인간들, 친절하지만 까다롭고, 남을 잘 믿으면서도 의심이 강하며, 야비하면서도 너그러운 미국인들 속에 흡수되어 버렸다.&lt;/p&gt;
+  &lt;p&gt;래리는 자신의 바람대로 떠들썩하고 소란스러운 인간 집단에 흡수되었다. 이해관계의 상충으로 괴로워하고 세상의 혼란 속에서 방황하며, 선을 강렬히 소망하면서도 외부에 대해서는 독단적이고 그러면서도 속으로는 매우 소심한 인간들, 친절하지만 까다롭고, 남을 잘 믿으면서도 의심이 강하며, 야비하면서도 너그러운 미국인들 속에 흡수되어 버렸다.&lt;/p&gt;
 &lt;/blockquote&gt;
 
 &lt;h3 id=&quot;소크라테스-익스프레스-에릭-와이너&quot;&gt;소크라테스 익스프레스, 에릭 와이너&lt;/h3&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;의지의 욕망은 끝이 없으며 요구는 고갈될 줄을 모른다. 모든 욕망이 새로운 욕망을 낳는다. 그 갈망을  가라앉히거나 그 요구에 끝을 맺거나 그 심장의 끝없는 나락을 채우기엔 세상의 그 어떤 만족도 충분치 않다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;정원은 관리가 필요하다. 우리의 생각도 마찬가지다. 뒷마당에서  빈둥거리는 사람이 정원사가  아니듯, 생각한다고 다 철학자인 것은 아니다. 정원일과 철학은 둘 다 어린아이의 관대한 즐거움이 수반된 어른의 절제된 헌신을 필요로 한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“네겐 노력할 권리가 있지만, 반드시 그 노력의 결실을 취할 권리는 없다. 절대로 보상받기 위해 행동에 나서지 말 것이며, 그렇다고 아무것도 하지 않기를 바라서도 안 된다. «바가바드기타»는 노력과 결과를 분리하라고 가르친다. 모든 시도에는 100퍼센트의 노력을, 그 결과에는 정확히 0퍼센트의 노력만을 기울일 것.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;“모든 진실은 구불구불하다.” 니체가 말했다. 모든 삶도 마찬가지다. 우리는 모든 것이 지난 후에야 과거를 돌이켜보며 서사를 매끄럽게 다듬고 패턴과 의미를 부여한다. 하지만 그 당시에는  모든 것이 지그재그다. 여백도 있다. 과거의 자신을 막 모습을 드러낸 미래의 자신과 갈라주는 텍스트 사이의 빈 공간. 이 여백은 무언가가 누락된 것처럼 보인다. 하지만 사실은 그렇지 않다. 여백은 무언의 과도기이며, 우리 삶의 흐름이 방향을 바꾸는 지점이다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;순식간에 사라지는 삶의 작은 기쁨을 즐기려면 느슨하게 쥐어야한다. 너무 세게 붙잡으면 부서져버린다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;편리함에는 언제나 눈에 보이지 않는 비용, 즉 ‘편리세’가 있으며, 잃어버린 친밀함과 박탈당한 아름다움이 바로 그 비용이다. 의식적으로든 아니든 우리는 기꺼이 편리세를 지불한다.&lt;/p&gt;
+&lt;/blockquote&gt;
+
+&lt;blockquote&gt;
+  &lt;p&gt;슬픔은 무척 무겁게 느껴지지만 어쩌면 그건 환상이다. 어쩌면 슬픔은 우리 생각보다 가벼울 수 있다. 어쩌면 꼭 용감무쌍한 행동이 필요한 것은 아닐 수도 있다. 어쩌면 삶에서 흔히 사소하다고 여겨지는 것들, 작은 것들의 위대한 아름다움이 우리를 구할 수도 있다. 어쩌면 구원은 보기보다 가까울 수 있다. 우리가 해야 하는 건 그저 손을 뻗어서 문을 닫는 것쁜이다.&lt;/p&gt;
+&lt;/blockquote&gt;
 
 &lt;h3 id=&quot;우리는-모두-집으로-돌아간다-마쓰이에-마사시&quot;&gt;우리는 모두 집으로 돌아간다, 마쓰이에 마사시&lt;/h3&gt;
 
