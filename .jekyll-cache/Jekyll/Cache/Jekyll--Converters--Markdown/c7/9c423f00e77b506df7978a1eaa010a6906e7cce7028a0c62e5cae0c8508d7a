@@ -1,0 +1,44 @@
+I"�<p>GitHub Page 서비스에서 Jekyll을 사용하여 블로그 만들기  (1)</p>
+
+<h1 id="h1-헤더">H1 헤더</h1>
+<h2 id="h2-헤더">H2 헤더</h2>
+<h3 id="--오류">- 오류</h3>
+<ul>
+  <li>오류 났을 때 도움이 될것같은 사이트
+    <ul>
+      <li><a href="https://tattler.tistory.com/233">https://tattler.tistory.com/233</a></li>
+      <li><a href="https://velog.io/@shg4821/%EA%B9%83%ED%97%88%EB%B8%8C-%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0-1.5">https://velog.io/@shg4821/깃허브-블로그-만들기-1.5</a></li>
+    </ul>
+  </li>
+  <li>나의 문제점: theme  태그 수정
+깃에 연결된 메일로 에러메일이 왔었다. 해당 메일을 읽어보고선 해결.
+해당 문제는 document에도 기술되어 있었다.</li>
+  <li>GitHub Pages : remote_theme로 변경
+<a href="https://hydejack.com/docs/upgrade/">https://hydejack.com/docs/upgrade/</a></li>
+</ul>
+
+<ol>
+  <li>참고
+    <ul>
+      <li>앞으로 참고할 사이트
+<a href="https://ehdwn1991.github.io/linux/2018/06/14/jekyll-install/">https://ehdwn1991.github.io/linux/2018/06/14/jekyll-install/</a></li>
+    </ul>
+  </li>
+</ol>
+
+<ul>
+  <li>
+    <p>깃 사용법
+<a href="https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C">https://git-scm.com/book/ko/v2/Git의-기초-리모트-저장소</a></p>
+  </li>
+  <li>
+    <p>깃허브  블로그 생성 참고 사이트</p>
+    <ul>
+      <li><a href="https://dev-gabriel.tistory.com/23">https://dev-gabriel.tistory.com/23</a></li>
+      <li><a href="https://til.younho9.dev/docs/frontend/jekyll/jekyll-github-page%EB%A5%BC-%EC%9D%B4%EC%9A%A9%ED%95%B4-%EA%B0%9C%EC%9D%B8%EB%B8%94%EB%A1%9C%EA%B7%B8-%EB%A7%8C%EB%93%A4%EA%B8%B0/">https://til.younho9.dev/docs/frontend/jekyll/jekyll-github-page를-이용해-개인블로그-만들기/</a></li>
+      <li><a href="https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll">https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/about-github-pages-and-jekyll</a> (GitHub Docs)</li>
+      <li><a href="https://lazyren.github.io/tags/">https://lazyren.github.io/tags/</a> (showcase)</li>
+    </ul>
+  </li>
+</ul>
+:ET

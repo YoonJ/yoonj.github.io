@@ -1,0 +1,43 @@
+I"M	
+<div class="list__item">
+  <article class="archive-item">
+      <div>
+          <span>
+            <a href="/blog/first-post/" style="text-decoration-line: none;">GitHub Page와 Jekyll로 블로그 만들기 (1)</a>
+          </span>
+          <small> 
+            🗓  2021.08.19
+            
+              <a style="text-decoration-line: none;">
+<!--Archive page 용-: (post -> page)-->
+<!--page__taxonomy.html에서 가져 옴-->
+        
+        <span class="page__taxonomy">
+            <span itemprop="keywords"><a href="/categories/#blog" class="page__taxonomy-item-category" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color:#3F5D66; text-decoration: none; border: 1px solid #3F5D66; border-radius: 4px;">blog</a>
+                    
+                    
+                    <a href="/tags/#blog" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Blog</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#github-page" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Github Page</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#github" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Github</a><span class="sep"> </span>
+                
+                    
+                    
+                    <a href="/tags/#jekyll" class="page__taxonomy-item-tag" rel="tag" style="display:inline-block; margin-right: 5px; margin-bottom: 5px; padding: 1px 7px; color: #3996B3; text-decoration: none; border: 1px solid #3996B3; border-radius: 4px;">Jekyll</a>
+                
+            </span>
+        </span></a>
+            
+            <p class="archive__item-excerpt" itemprop="description">참고 사이트 정리
+</p>
+          </small>
+      </div>
+    </article>
+</div>
+
+:ET
