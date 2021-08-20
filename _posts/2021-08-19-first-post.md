@@ -5,7 +5,7 @@ excerpt: "참고 사이트 정리"
 toc: true
 
 categories:
-  - blog
+  - Blog
 tags:
   - Blog
   - Github
@@ -32,9 +32,9 @@ last_modified_at: 2021-08-19T08:06:00-05:00
 5. 깃 사용법  
   [https://git-scm.com/book/ko/v2/Git의-기초-리모트-저장](https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C)
 
-    - repository 로 push 하기
-    git add .
-    git commit -m "commit message"
-    git push -u origin master
-    - remote 수정 사항 취소하기
+    - repository 로 push 하기  
+    git add .   
+    git commit -m "commit message"  
+    git push -u origin master  
+    - remote 수정 사항 취소하기  
     git reset —hard

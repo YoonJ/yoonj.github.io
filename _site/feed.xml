@@ -1,4 +1,4 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://yoonj.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://yoonj.github.io//" rel="alternate" type="text/html" /><updated>2021-08-20T11:33:27+09:00</updated><id>https://yoonj.github.io//feed.xml</id><title type="html">기록</title><subtitle>기록용 블로그</subtitle><author><name>Yoon</name></author><entry><title type="html">GitHub Page와 Jekyll로 블로그 만들기 (1)</title><link href="https://yoonj.github.io//blog/first-post/" rel="alternate" type="text/html" title="GitHub Page와 Jekyll로 블로그 만들기 (1)" /><published>2021-08-19T00:00:00+09:00</published><updated>2021-08-19T22:06:00+09:00</updated><id>https://yoonj.github.io//blog/first-post</id><content type="html" xml:base="https://yoonj.github.io//blog/first-post/">&lt;h2 id=&quot;참고--사이트&quot;&gt;참고  사이트&lt;/h2&gt;
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://yoonj.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://yoonj.github.io//" rel="alternate" type="text/html" /><updated>2021-08-20T12:58:41+09:00</updated><id>https://yoonj.github.io//feed.xml</id><title type="html">기록</title><subtitle>기록용 블로그</subtitle><author><name>Yoon</name></author><entry><title type="html">GitHub Page와 Jekyll로 블로그 만들기 (1)</title><link href="https://yoonj.github.io//blog/first-post/" rel="alternate" type="text/html" title="GitHub Page와 Jekyll로 블로그 만들기 (1)" /><published>2021-08-19T00:00:00+09:00</published><updated>2021-08-19T22:06:00+09:00</updated><id>https://yoonj.github.io//blog/first-post</id><content type="html" xml:base="https://yoonj.github.io//blog/first-post/">&lt;h2 id=&quot;참고--사이트&quot;&gt;참고  사이트&lt;/h2&gt;
 
 &lt;ol&gt;
   &lt;li&gt;
@@ -28,12 +28,12 @@
   &lt;a href=&quot;https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C&quot;&gt;https://git-scm.com/book/ko/v2/Git의-기초-리모트-저장&lt;/a&gt;&lt;/p&gt;
 
     &lt;ul&gt;
-      &lt;li&gt;repository 로 push 하기
- git add .
- git commit -m “commit message”
+      &lt;li&gt;repository 로 push 하기&lt;br /&gt;
+ git add . &lt;br /&gt;
+ git commit -m “commit message”&lt;br /&gt;
  git push -u origin master&lt;/li&gt;
-      &lt;li&gt;remote 수정 사항 취소하기
+      &lt;li&gt;remote 수정 사항 취소하기&lt;br /&gt;
  git reset —hard&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
-&lt;/ol&gt;</content><author><name>Yoon</name></author><category term="blog" /><category term="Blog" /><category term="Github" /><category term="Github Page" /><category term="Jekyll" /><summary type="html">참고 사이트 정리</summary></entry></feed>
+&lt;/ol&gt;</content><author><name>Yoon</name></author><category term="Blog" /><category term="Blog" /><category term="Github" /><category term="Github Page" /><category term="Jekyll" /><summary type="html">참고 사이트 정리</summary></entry></feed>
