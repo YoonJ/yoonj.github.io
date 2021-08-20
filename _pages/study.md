@@ -8,7 +8,7 @@ sidebar_main: true
 
 공부한  것들에 대한 기록
 
-<span style="color:#1A261C; background-color:#A3B7BF; ">__2021__</span>
+## <span style="color:#1A261C; background-color:#A3B7BF; ">__2021__</span>
     
  1. <span style="color:#6D878C; background-color:#F0F2F2;">[자격즉 취득]</span> AWS Certified DevOps Engineer - Professional
  2. <span style="color:#31403E; background-color:#F0F2F2;">[스터디]</span> 성공과 실패를  결정하는  1%의 네트워크 원리
