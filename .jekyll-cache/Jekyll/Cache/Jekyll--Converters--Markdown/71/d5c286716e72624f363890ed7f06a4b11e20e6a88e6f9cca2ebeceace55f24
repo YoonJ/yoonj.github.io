@@ -1,4 +1,4 @@
-I"/<h2 id="참고--사이트">참고  사이트</h2>
+I"(<h2 id="참고--사이트">참고  사이트</h2>
 
 <ol>
   <li>
@@ -10,17 +10,15 @@
   <a href="https://mmistakes.github.io/minimal-mistakes/">https://mmistakes.github.io/minimal-mistakes/</a></p>
   </li>
   <li>
-    <dl>
-      <dt>평생 공부 블로그 &gt; Jekyll/Github 블로그 만들기</dt>
-      <dd>minimal-misatake 구조 참고 가능<br />
-<a href="https://ansohxxn.github.io/categories/blog">https://ansohxxn.github.io/categories/blog</a></dd>
-    </dl>
+    <p>평생 공부 블로그 &gt; Jekyll/Github 블로그 만들기
+  minimal-misatake 구조 참고 가능<br />
+  <a href="https://ansohxxn.github.io/categories/blog">https://ansohxxn.github.io/categories/blog</a></p>
   </li>
   <li>
     <dl>
       <dt>취미로 코딩하는 개발자 &gt; Github Pages 블로그 따라하기</dt>
       <dd>간단한 기능 튜토리얼<br />
-<a href="https://devinlife.com/howto/">https://devinlife.com/howto/</a></dd>
+  <a href="https://devinlife.com/howto/">https://devinlife.com/howto/</a></dd>
     </dl>
   </li>
   <li>
@@ -28,11 +26,11 @@
   <a href="https://git-scm.com/book/ko/v2/Git%EC%9D%98-%EA%B8%B0%EC%B4%88-%EB%A6%AC%EB%AA%A8%ED%8A%B8-%EC%A0%80%EC%9E%A5%EC%86%8C">https://git-scm.com/book/ko/v2/Git의-기초-리모트-저장</a></p>
 
     <ul>
-      <li>repository 로 push 하기
- git add .
- git commit -m “commit message”
+      <li>repository 로 push 하기<br />
+ git add . <br />
+ git commit -m “commit message”<br />
  git push -u origin master</li>
-      <li>remote 수정 사항 취소하기
+      <li>remote 수정 사항 취소하기<br />
  git reset —hard</li>
     </ul>
   </li>

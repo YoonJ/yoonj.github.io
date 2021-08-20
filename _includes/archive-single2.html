@@ -14,14 +14,14 @@
   <article class="archive-item">
       <div>
           <span>
-            <a href="{{ post.url }}" style = "text-decoration-line: none;">{{post.title}}</a>
+            <a href="{{ post.url }}" class = "archive__item_url">{{post.title}}</a>
           </span>
           <small> 
             🗓 {{ post.date | date: " %Y.%m.%d" }}
             {% if site.category_archive.type and post.categories[0] %}
-              <a style = "text-decoration-line: none;">{%- include post__taxonomy.html -%}</a>
+              <a class = "archive__item_url">{%- include post__taxonomy.html -%}</a>
             {% else if site.tag_archive.type and post.tags[0] %}
-              <div style = "text-decoration-line:line-through;">{%- include post__taxonomy.html -%}</div>
+              <div sclass = "archive__item_url">{%- include post__taxonomy.html -%}</div>
             {% endif %}
             {% if post.excerpt %}<p class="archive__item-excerpt" itemprop="description">{{ post.excerpt | markdownify | strip_html | truncate: 160 }}</p>{% endif %}
           </small>

@@ -64,6 +64,13 @@
   }
 }
 
+.archive__item_url {
+  text-decoration-line: none;
+}
+.archive__item_url:hover {
+  text-decoration-line: underline;
+}
+
 /* remove border*/
 .page__content {
   .archive__item-title {

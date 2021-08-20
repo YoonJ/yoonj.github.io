@@ -1,5 +1,5 @@
 ---
-title:  "GitHub Page와 Jekyll로 블로그 만들기 (1)"
+title:  "GitHub Page와 Jekyll로 블로그 만들기 (0)"
 excerpt: "참고 사이트 정리"
 
 toc: true
@@ -22,11 +22,11 @@ last_modified_at: 2021-08-19T08:06:00-05:00
   [https://mmistakes.github.io/minimal-mistakes/](https://mmistakes.github.io/minimal-mistakes/)
 
 3. 평생 공부 블로그 > Jekyll/Github 블로그 만들기
-: minimal-misatake 구조 참고 가능  
+  minimal-misatake 구조 참고 가능  
   [https://ansohxxn.github.io/categories/blog](https://ansohxxn.github.io/categories/blog)
 
 4. 취미로 코딩하는 개발자 > Github Pages 블로그 따라하기
-: 간단한 기능 튜토리얼  
+  : 간단한 기능 튜토리얼  
   [https://devinlife.com/howto/](https://devinlife.com/howto/)
 
 5. 깃 사용법  
