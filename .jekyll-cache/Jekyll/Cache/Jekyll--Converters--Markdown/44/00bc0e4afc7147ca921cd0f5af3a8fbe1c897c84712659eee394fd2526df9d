@@ -1,4 +1,4 @@
-I"�
+I"G	
 <div class="list__item">
   <article class="archive-item">
       <div>
@@ -33,6 +33,8 @@
             </span>
         </span></a>
             
+            <p class="archive__item-excerpt" itemprop="description">테마  고르기
+</p>
           </small>
       </div>
     </article>
