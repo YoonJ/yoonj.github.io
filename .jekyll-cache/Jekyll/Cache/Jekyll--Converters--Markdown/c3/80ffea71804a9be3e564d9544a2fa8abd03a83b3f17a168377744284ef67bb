@@ -1,0 +1,60 @@
+I"J<h2 id="이벤트--사이트-개요와-핵심-설계-사항">이벤트  사이트 개요와 핵심 설계 사항</h2>
+<h3 id="이벤트-사이트-개요">이벤트 사이트 개요</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>- 1개월 한정으로 이용한다.
+- 사이트 사용자는 개인 사용자로서 인터넷으로 접속한다.
+- 접속자 수는 많지 않아 고사양 서버는 필요 없다.
+- 웹 서버로 LAMP 환경을 사용한다.
+- 비용을 우선하며 다중화나 백업은 고려하지 않는다.
+</code></pre></div></div>
+<h3 id="인프라-핵심-설계-사항">인프라 핵심 설계 사항</h3>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>(1) 리전  선택
+  사이트를 구동시킬 최적의 리전을 선택한다.
+(2) EC2 인스턴스 설정
+  이벤트 사이트의 웹 서버에 적합한 EC2인스턴스를 설정한다.
+(3) 도메인을 통한 접속
+  고정 IP 주소와 접속한다.
+(4) 네트워크 구성
+  인터넷 접속을 위해 간단한 네트워크 구성을 설정한다.
+(5) 웹 서버로서의 OS 환경 설정
+  아마존 리눅스에 LAMP 환경을 설정한다.
+</code></pre></div></div>
+
+<h3 id="이벤트-사이트-구성도">이벤트 사이트 구성도</h3>
+
+<h3 id="ec2-인스턴스-작성하기">EC2 인스턴스 작성하기</h3>
+<ol>
+  <li>AMI(Amazon Machine Image) 선택
+    <ul>
+      <li>AMI의 가상화 타입
+        <ul>
+          <li><u>HVM (완전가상화)</u></li>
+          <li>PV  (반가상화)</li>
+        </ul>
+      </li>
+    </ul>
+  </li>
+  <li>AMI 인스턴스 유형 선택</li>
+  <li>Public IP 자동할당(Auto-assign Public IP) 기능 비활성화(Disabled)<br />
+활성화하면 동적 퍼블릭 IP 주소가 부여되어 인터넷에서 접속이 가능해진다. 이 설정으로 부여된 public IP 주소나 public DNS는 EC2가 다시 시작할 때마다 자동으로 변경된다. (이번 패턴에서는 Route 53 DNS를 통해 고정 IP주소를 할당한다)</li>
+  <li>Shutdown behavior (EC2 인스턴스 정지시 동작 설정)
+    <ul>
+      <li>정지(Stop): 셧다운시 OS가 정지되어 OS 이미지가 보존되고 재시작하면 같은 상태로 시작한다.</li>
+      <li>종료: OS를 정지시 EC2 인스턴스가 삭제된다</li>
+      <li>(+) ‘Enable termination protection’ 체크 (관리화면애서 조작 실수로 인스턴스가 삭제되는 것을 막을 수 있다)</li>
+    </ul>
+  </li>
+  <li>보안 그룹  설정</li>
+</ol>
+
+<h3 id="route-53-dns-설정">Route 53, DNS 설정</h3>
+
+<h3 id="vpc-설정">VPC 설정</h3>
+
+<h3 id="os-환경-설정">OS 환경 설정</h3>
+
+<h3 id="참고">참고</h3>
+<ul>
+  <li>운영 중에 리소스를 유연하게 변경하기</li>
+  <li>이벤트 사이트를 종료하면서 할 일</li>
+</ul>
+:ET
