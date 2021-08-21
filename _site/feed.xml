@@ -1,11 +1,49 @@
-<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://yoonj.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://yoonj.github.io//" rel="alternate" type="text/html" /><updated>2021-08-21T14:13:11+09:00</updated><id>https://yoonj.github.io//feed.xml</id><title type="html">기록</title><subtitle>기록용 블로그</subtitle><author><name>Yoon</name></author><entry><title type="html">배워서 바로 쓰는 14가지 AWS 구축 패턴 (1)</title><link href="https://yoonj.github.io//awspattern/aws-pattern-01/" rel="alternate" type="text/html" title="배워서 바로 쓰는 14가지 AWS 구축 패턴 (1)" /><published>2021-08-21T00:00:00+09:00</published><updated>2021-08-21T22:06:00+09:00</updated><id>https://yoonj.github.io//awspattern/aws-pattern-01</id><content type="html" xml:base="https://yoonj.github.io//awspattern/aws-pattern-01/">&lt;h3 id=&quot;이벤트--사이트-개요와-핵심-설계-사항&quot;&gt;이벤트  사이트 개요와 핵심 설계 사항&lt;/h3&gt;
-&lt;h4 id=&quot;이벤트-사이트-개요&quot;&gt;이벤트 사이트 개요&lt;/h4&gt;
-&lt;pre&gt;&lt;code class=&quot;language-{.no-highlight}&quot;&gt;- 1개월 한정으로 이용한다.
+<?xml version="1.0" encoding="utf-8"?><feed xmlns="http://www.w3.org/2005/Atom" ><generator uri="https://jekyllrb.com/" version="4.2.0">Jekyll</generator><link href="https://yoonj.github.io//feed.xml" rel="self" type="application/atom+xml" /><link href="https://yoonj.github.io//" rel="alternate" type="text/html" /><updated>2021-08-21T19:49:11+09:00</updated><id>https://yoonj.github.io//feed.xml</id><title type="html">기록</title><subtitle>기록용 블로그</subtitle><author><name>Yoon</name></author><entry><title type="html">배워서 바로 쓰는 14가지 AWS 구축 패턴 (1)</title><link href="https://yoonj.github.io//awspattern/aws-pattern-01/" rel="alternate" type="text/html" title="배워서 바로 쓰는 14가지 AWS 구축 패턴 (1)" /><published>2021-08-21T00:00:00+09:00</published><updated>2021-08-21T22:06:00+09:00</updated><id>https://yoonj.github.io//awspattern/aws-pattern-01</id><content type="html" xml:base="https://yoonj.github.io//awspattern/aws-pattern-01/">&lt;h2 id=&quot;이벤트--사이트-개요와-핵심-설계-사항&quot;&gt;이벤트  사이트 개요와 핵심 설계 사항&lt;/h2&gt;
+&lt;h3 id=&quot;이벤트-사이트-개요&quot;&gt;이벤트 사이트 개요&lt;/h3&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;- 1개월 한정으로 이용한다.
 - 사이트 사용자는 개인 사용자로서 인터넷으로 접속한다.
 - 접속자 수는 많지 않아 고사양 서버는 필요 없다.
 - 웹 서버로 LAMP 환경을 사용한다.
 - 비용을 우선하며 다중화나 백업은 고려하지 않는다.
-&lt;/code&gt;&lt;/pre&gt;</content><author><name>Yoon</name></author><category term="AwsPattern" /><category term="DevOps" /><category term="AWS" /><category term="Book" /><summary type="html">패턴1. 이벤트 사이트</summary></entry><entry><title type="html">배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)</title><link href="https://yoonj.github.io//awspattern/aws-pattern-00/" rel="alternate" type="text/html" title="배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)" /><published>2021-08-20T00:00:00+09:00</published><updated>2021-08-20T22:06:00+09:00</updated><id>https://yoonj.github.io//awspattern/aws-pattern-00</id><content type="html" xml:base="https://yoonj.github.io//awspattern/aws-pattern-00/">&lt;h2 id=&quot;1-웹-시스템&quot;&gt;1. 웹 시스템&lt;/h2&gt;
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+&lt;h3 id=&quot;인프라-핵심-설계-사항&quot;&gt;인프라 핵심 설계 사항&lt;/h3&gt;
+&lt;div class=&quot;language-plaintext highlighter-rouge&quot;&gt;&lt;div class=&quot;highlight&quot;&gt;&lt;pre class=&quot;highlight&quot;&gt;&lt;code&gt;(1) 리전  선택
+  사이트를 구동시킬 최적의 리전을 선택한다.
+(2) EC2 인스턴스 설정
+  이벤트 사이트의 웹 서버에 적합한 EC2인스턴스를 설정한다.
+(3) 도메인을 통한 접속
+  고정 IP 주소와 접속한다.
+(4) 네트워크 구성
+  인터넷 접속을 위해 간단한 네트워크 구성을 설정한다.
+(5) 웹 서버로서의 OS 환경 설정
+  아마존 리눅스에 LAMP 환경을 설정한다.
+&lt;/code&gt;&lt;/pre&gt;&lt;/div&gt;&lt;/div&gt;
+
+&lt;h3 id=&quot;이벤트-사이트-구성도&quot;&gt;이벤트 사이트 구성도&lt;/h3&gt;
+
+&lt;h3 id=&quot;ec2-인스턴스-작성하기&quot;&gt;EC2 인스턴스 작성하기&lt;/h3&gt;
+&lt;ol&gt;
+  &lt;li&gt;AMI(Amazon Machine Image) 선택
+    &lt;ul&gt;
+      &lt;li&gt;AMI의 가상화 타입
+        &lt;ul&gt;
+          &lt;li&gt;&lt;u&gt;HVM (완전가상화)&lt;/u&gt;&lt;/li&gt;
+          &lt;li&gt;PV  (반가상화)&lt;/li&gt;
+        &lt;/ul&gt;
+      &lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;AMI 인스턴스 유형 선택&lt;/li&gt;
+  &lt;li&gt;Public IP 자동할당(Auto-assign Public IP) 기능 비활성화(Disabled)&lt;br /&gt;
+활성화하면 동적 퍼블릭 IP 주소가 부여되어 인터넷에서 접속이 가능해진다. 이 설정으로 부여된 public IP 주소나 public DNS는 EC2가 다시 시작할 때마다 자동으로 변경된다. (이번 패턴에서는 Route 53 DNS를 통해 고정 IP주소를 할당한다)&lt;/li&gt;
+  &lt;li&gt;Shutdown behavior (EC2 인스턴스 정지시 동작 설정)
+    &lt;ul&gt;
+      &lt;li&gt;정지(Stop): 셧다운시 OS가 정지되어 OS 이미지가 보존되고 재시작하면 같은 상태로 시작한다.&lt;/li&gt;
+      &lt;li&gt;종료: OS를 정지시 EC2 인스턴스가 삭제된다&lt;/li&gt;
+      &lt;li&gt;(+) ‘Enable termination protection’ 체크 (관리화면애서 조작 실수로 인스턴스가 삭제되는 것을 막을 수 있다)&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ol&gt;</content><author><name>Yoon</name></author><category term="AwsPattern" /><category term="DevOps" /><category term="AWS" /><category term="Book" /><summary type="html">패턴1. 이벤트 사이트</summary></entry><entry><title type="html">배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)</title><link href="https://yoonj.github.io//awspattern/aws-pattern-00/" rel="alternate" type="text/html" title="배워서 바로 쓰는 14가지 AWS 구축 패턴 (0)" /><published>2021-08-20T00:00:00+09:00</published><updated>2021-08-20T22:06:00+09:00</updated><id>https://yoonj.github.io//awspattern/aws-pattern-00</id><content type="html" xml:base="https://yoonj.github.io//awspattern/aws-pattern-00/">&lt;h2 id=&quot;1-웹-시스템&quot;&gt;1. 웹 시스템&lt;/h2&gt;
 &lt;p&gt;&lt;a href=&quot;https://www.notion.so/1-4db1130c7b954ed98e14d5ee506f209d&quot;&gt;패턴1. 이벤트 사이트&lt;/a&gt;&lt;br /&gt;
 패턴2. 기업 웹사이트&lt;br /&gt;
 패턴3. 성능을 중시하는 인트라 웹&lt;br /&gt;
